@@ -1,5 +1,5 @@
 # Anomalous Sound Detection for Industrial Machines with Supervised and Unsupervised Learning Algorithms
-# [ECE381K_Term_Project - Group 9]
+ - [ECE381K_Term_Project - Group 9]
 
 # Abstract
 
