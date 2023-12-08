@@ -1,11 +1,5 @@
 # Anomalous sound detection for industrial machine based on supervised and unsupervised approaches with various feature extraction methods (STFT, MFCC, Mel-spectrogram, GFCC)
 [ECE381K_Term_Project - Group 9]
 
-In this study, we develop a supervised machine learning method to detect abnormal sounds from audio data recorded for various machine types, models, and SNRs. The dataset we used in this project comes from the MIMII dataset (https://zenodo.org/records/3384388). This includes normal and abnormal sound dataset for four type of industrial machines (i.e. valves, pumps, fans, and slide rails) with different model IDs (i.e. 00, 02, 04, and 06) and SNRs (i.e. -6 dB, 0 dB, and 6 dB).
-
-The specific purposes of this study are:
-- Proposing a new supervised anomaly detection method based on the CNN model as a classifier
-- Evaluating the performance feature extraction methods (STFT, MFCCs, GFCCs, and Mel-spectrogram), which convert the audio to image data
-- Assessment of the accuracy and performance of the proposed anomaly detection model
-- Exploring the over-fitting issue by increasing epochs
-
+Anomalous sound detection (ASD) techniques based on machine acoustics have been proposed as alternative and more generalizable methods to prevent mechanical failure for industrial machines. In this study, we extended previous work on anomaly detection methods by exploring four feature extraction methods. We developed ASD methods relying on supervised and unsupervised approaches for four industrial machines from the Malfunctioning Industrial Machine Investigation and Inspection (MIMII) dataset with realistic background noise. By comparing the AUC with a baseline model, we show that a supervised approach performs better, indicating that analyzing the sound of a machine could be a cheaper alternative tool to supplement other sensors in a factory environment once the labels are present. However, we also show that our unsupervised ap-
+proach performs poorer than the baseline MIMII model, indicating that further feature extraction and engineering techniques are required.
